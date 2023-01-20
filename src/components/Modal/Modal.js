@@ -6,11 +6,11 @@ import React from 'react';
 
 
 function Modal() {
-    const   [modal, setModal] = useState(false);
+    const   [model, setModal] = useState(false);
     const toggleModal = () => {
-        setModal(!modal);
+        setModal(!model);
     }
-
+    console.log(model);
     return (
 
 
@@ -20,10 +20,10 @@ function Modal() {
             <button 
             onClick={toggleModal}
              className="btn-modal">
-                hello
+                Click here!
                 </button>
               
-              { Modal && (
+              { model && (
               <div className="modal">
               <div onClick={toggleModal} 
               className="overlay"></div>

@@ -7,6 +7,7 @@ import './index.css';
 import React from 'react';
 import Modal from './components/Modal/Modal';
 import Footer from "./components/footer";
+import "./components/Modal/modal.css";
 
 function App  () {
   return (
@@ -27,10 +28,11 @@ function App  () {
         <Route path= "/" element ={<Home/>} />
         <Route path= "/about" exact element ={<About/>} />
         <Route path= "/contact" exact element ={<ContactMe/>} />
-        <Route path = "/src/components/footer.js" exact element = {<Footer/>}  />
+        
       </Routes>
+
     </div>
-    
+    <Footer />
    </BrowserRouter>
 
    

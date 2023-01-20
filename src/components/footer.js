@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+
 import React from 'react'
 
 const Footer = () => {
@@ -7,13 +7,16 @@ const Footer = () => {
      <nav >
         <ul>
             <li>
-                <Link className="media" to= "/facebook">Facebook</Link> </li>
+          < a href='#'>Twitter</a>
+                </li>
        
        
-       <li> <Link className="media" to= "/instagram">Instagram</Link> </li>
+       <li>
+        < a href='#'>Instagram</a>
+       </li>
        
        
-        <li> <Link className="media" to= "/Twitter">Twitter</Link> </li>
+        <li> <a href='#' >Facebook</a></li>
       </ul>
      </nav>
    

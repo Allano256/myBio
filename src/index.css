@@ -72,6 +72,7 @@ h1 {
 
 }
 form input {
+  padding: 10px;
   width: 100%;
   border:0;
   background: transparent;
@@ -172,4 +173,22 @@ input:hover {
 }
 span {
   font-style: italic;
+}
+
+
+.foot a {
+  text-decoration: none;
+  font-weight: 800;
+
+  
+}
+
+.foot li {
+  list-style-type: none;
+}
+
+.foot nav li {
+  display: inline-flex;
+  padding: 20px;
+  
 }
