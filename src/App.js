@@ -6,6 +6,7 @@ import ContactMe from "./components/ContactMe";
 import './index.css';
 import React from 'react';
 import Modal from './components/Modal/Modal';
+import Footer from "./components/footer";
 
 function App  () {
   return (
@@ -26,6 +27,7 @@ function App  () {
         <Route path= "/" element ={<Home/>} />
         <Route path= "/about" exact element ={<About/>} />
         <Route path= "/contact" exact element ={<ContactMe/>} />
+        <Route path = "/src/components/footer.js" exact element = {<Footer/>}  />
       </Routes>
     </div>
     
