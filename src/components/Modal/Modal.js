@@ -29,7 +29,7 @@ function Modal() {
               className="overlay"></div>
               <div className="modal-content">
                   <h2>Allano tech</h2>
-                  <p>Thank yo for contacting us,we shall get back to you soon.</p>
+                  <p>Thank you for contacting us,we shall get back to you soon.</p>
                       <button
                       className='close-modal'
                       onClick={toggleModal} >close</button>
